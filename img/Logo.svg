@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="261px" height="95px" viewBox="0 0 261 95">
+<style type="text/css"><![CDATA[
+.style0 {
+  font-size: 40px;
+  font-family: "MyriadPro-Light";
+  fill: rgb(254,252,252);
+}
+.style1 {
+  font-size: 64px;
+  font-family: "Lobster1.3";
+  fill: rgb(252,252,252);
+}
+]]></style>
+<g><text transform="translate(36.00,59.00)" class="style0"><tspan y="28.40" x="0.00 22.76 44.96 66.92 79.92 101.88 124.00 136.88 156.16 178.92 201.12 221.16" fill="rgb(253,252,252)">photographer</tspan></text><text transform="translate(-1.00,3.00)" class="style1"><tspan y="45.44" x="0.00 28.29 59.14 84.48 120.00 134.97 170.11" fill="rgb(251,251,251)">Fashion</tspan></text></g></svg>

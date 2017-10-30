@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Fashion photographer</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+  <div class="container">
+    <div class="container__gradient">
+      <div class="wrapper">
+        <header class="header">
+          <div class="logo">
+            <a href="index.html">
+              <img src="img/Logo.png" alt="">
+            </a>
+          </div>
+          <nav class="header_menu">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT ME</a></li>
+              <li class="active"><a href="portfolio.html?data-id=yves">PORTFOLIO</a></li>
+              <li><a href="exhibitions.html">EXHIBITIONS</a></li>
+              <li><a href="contact.html">CONTACT ME</a></li>
+          </nav>
+        </header>
+        <main class="main">
+
+          <div class="slider">
+            <div class="viewport">
+              <ul class="slidewrapper">
+                <li class="slide">
+                  <img src="img/pierre/photo--full-1.jpg" alt="1" class="slide-img">
+                </li>
+                <li class="slide">
+                  <img src="img/pierre/photo--full-2.jpg" alt="2" class="slide-img">
+                </li>
+                <li class="slide">
+                  <img src="img/pierre/photo--full-3.jpg" alt="3" class="slide-img">
+                </li>
+                <li class="slide">
+                  <img src="img/pierre/photo--full-4.jpg" alt="4" class="slide-img">
+                </li>
+              </ul>
+              <div class="close-btn">
+                <i class="fa fa-window-close fa-5x" aria-hidden="true"></i>
+              </div>
+              <div class="slider-btns">
+                <div class="prev-btn"></div>
+                <div class="next-btn"></div>
+            </div>
+            </div>
+          </div>
+
+          <section class="logo_bg d-carousel">
+            <ul class="carousel">
+              <li class="carousel__block" data-id="yves">
+                <img alt="yves" src="img/yves-st-laurent.png">
+              </li>
+              <li class="carousel__block" data-id="pierre">
+                <img alt="pierre" src="img/pierre-cardin.png">
+              </li>
+              <li class="carousel__block" data-id="paco">
+                <img alt="paco" src="img/paco.png">
+              </li>
+              <li class="carousel__block" data-id="diesel">
+                <img alt="DIESEL" src="img/DIESEL.png">
+              </li>
+              <li class="carousel__block" data-id="yves">
+                <img alt="yves" src="img/yves-st-laurent.png">
+              </li>
+              <li class="carousel__block" data-id="pierre">
+                <img alt="pierre-cardin" src="img/pierre-cardin.png">
+              </li>
+              <li class="carousel__block" data-id="paco">
+                <img alt="paco" src="img/paco.png">
+              </li>
+              <li class="carousel__block" data-id="diesel">
+                <img alt="DIESEL" src="img/DIESEL.png">
+              </li>
+            </ul>
+          </section>
+          <section class="main__content">
+
+            <article class="content__gallery">
+              <ul>
+                <li class="gallery__preview" foto-id="1">
+                  <img src="img/yves/photo-1.jpg" alt="">
+                </li>
+                <li class="gallery__preview" foto-id="2">
+                  <img src="img/yves/photo-2.jpg" alt="">
+                </li>
+                <li class="gallery__preview" foto-id="3">
+                  <img src="img/yves/photo-3.jpg" alt="">
+                </li>
+                <li class="gallery__preview" foto-id="4">
+                  <img src="img/yves/photo-4.jpg" alt="">
+                </li>
+                <li class="gallery__preview" foto-id="5">
+                  <img src="img/yves/photo-5.jpg" alt="">
+                </li>
+                <li class="gallery__preview" foto-id="6">
+                  <img src="img/yves/photo-6.jpg" alt="">
+                </li>
+              </ul>
+
+            </article>
+
+
+            <article class="content">
+              <div class="content__img img3">
+              </div>
+              <h2 class="content__capture">
+                Yves Saint Laurent Photo Shoot
+              </h2>
+              <hr>
+              <p class="content__txt">
+                Proin purus sapien, euismod vulputate fermentum non, vulputate nec neque. Nullam ante metus, condimentum eget molestie ac, gravida quis velit. Nullam diam diam, dictum at ullamcorper sit amet, tincidunt et sapien.
+                <br><br>
+                Mauris et velit sit an inline link faucibus iaculis non eu dui. Nulla sit amet dui sed eros semper posuere vel id lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sapien odio.
+              </p>
+              <button class="content__btn">
+                read more
+              </button>
+            </article>
+          </section>
+        </main>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="wrapper">
+      <img class="footer__logo" src="img/Logo-sm.png" alt="logo">
+      <p class="footer__copy">
+        &copy; copyright 2017
+        <a href="www.yoururl.com">www.yoururl.com</a>
+      </p>
+      <div class="footer__social">
+        <a href="#">
+          <img src="img/twitter.png" alt="">
+        </a>
+        <a href="#">
+          <img src="img/facebook.png" alt="">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+<script type="text/javascript" src="js/jquery-1.8.min.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
